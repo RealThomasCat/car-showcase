@@ -63,7 +63,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                         alt="car model"
                         fill
                         priority
-                        className="object-contain"
+                        className="object-contain py-4"
                       />
                     </div>
 
@@ -74,7 +74,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                           alt="car model"
                           fill
                           priority
-                          className="object-contain"
+                          className="object-contain py-3"
                         />
                       </div>
                       <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
@@ -83,7 +83,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                           alt="car model"
                           fill
                           priority
-                          className="object-contain"
+                          className="object-contain py-3"
                         />
                       </div>
                       <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
@@ -92,7 +92,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                           alt="car model"
                           fill
                           priority
-                          className="object-contain"
+                          className="object-contain py-3"
                         />
                       </div>
                     </div>
