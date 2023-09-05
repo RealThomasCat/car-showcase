@@ -1,7 +1,7 @@
 import { CarCard, CustomFilter, Hero, SearchBar } from "@/components";
 import { fetchCars } from "@utils";
 
-export default async function Home({ searchParams }) {
+export default async function Home({ searchParams }: any) {
   const allCars = await fetchCars({
     manufacturer: searchParams.manufacturer || "Volkswagen",
     model: searchParams.model || "Tiguan",
